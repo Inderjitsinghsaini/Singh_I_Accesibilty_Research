@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesibility Research Project</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="public/css/main.css">
+
+</head>
+<body>
+    <main id="app">
+
+    <h1 class="appHead"><span id ="dropCap">H</span>ELLO EVERYONE</h1>
+    <p class="appDesc">This is the Research Project that is made to create media access for everyone with best controlling experience
+    </p>
+
+    <h1 class="appHead">MUSIC</h1>
+    <nav class="mainNav">
+        <ul>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">Tv Shows</a></li>
+            <li><a href="music.html">Music</a></li>
+        </ul>
+    </nav>
+        
+
+   
+    
+    
+    <section id="movie-div">
+        <div class="lightbox-div"><img src="images/godzilla.jpg" class="playIcon"  onClick="document.getElementById('audio_play').play(); return false;" /> </div>
+        <h1 class="movieName">Godzilla by Eminem</h1>
+        <p class="movieDesc">A New famous hit by Eminem</p>
+        <section class="lightbox">
+        <a href="#" class="close-lightbox">X</a>
+        <audio controls id="audio_play">
+            
+
+            <source src="Audio/godzilla.mp3" type="audio/mpeg" />
+        </audio>
+    
+   
+
+        <h1> A New hit Song by Eminem</h1>
+
+    </main>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesibility Research Project</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="public/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+    <main id="app">
+
+    <h1 class="appHead"><span id ="dropCap">H</span>ELLO EVERYONE</h1>
+    <p class="appDesc">This is the Research Project that is made to create media access for everyone with best controlling experience
+    </p>
+    <nav class="mainNav">
+        <ul>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tvshows.html">Tv Shows</a></li>
+            <li><a href="music.html">Music</a></li>
+        </ul>
+    </nav>
+    <h1 class="appHead">TV SHOWS</h1>
+    
+    <section id="movie-div">
+    <div class="lightbox-div"><img src="images/witcher.jpg" class="playIcon"></div>
+    <h1 class="movieName">the Witcher</h1>
+    <p class="movieDesc">A Famous Netflix Series</p>
+
+    <section class="lightbox">
+    <a href="#" class="close-lightbox">X</a>
+    <video  class="reel-video" src="video/witcher.mp4" type="video/mp4" onended="videoEnded()"></video>
+    <section class ="video-controls">
+        <i class="fas fa-play"></i>
+        <i class="fas fa-pause-circle"></i>
+        <i class="fas fa-backward"></i>
+        
+    </section>
+</section>
+
+
+
+
+
+    </main>
+    <script src="js/main.js" type="module"></script>
+    
+</body>
+</html>
